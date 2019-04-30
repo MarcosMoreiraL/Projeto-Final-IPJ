@@ -1,2 +1,0 @@
-Versão utilizada do Unity: 2018.2.7f1
-Compactei a pasta Standard Asset pois o github não deixou fazer upload de mais de 100 arquivos de uma vez.
