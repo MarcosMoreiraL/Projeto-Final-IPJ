@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1739088756716742}
+  m_IsPrefabAsset: 1
+--- !u!1 &1739088756716742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4915468902008506}
+  - component: {fileID: 114177399163452702}
+  m_Layer: 0
+  m_Name: SpawnControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4915468902008506
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1739088756716742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 469.95932, y: 17.347023, z: 152.72177}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114177399163452702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1739088756716742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0392ccaf739af844f86700ea23883426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curPlat: 0
+  spawnInicial: 0
+  limiteSpawn: 10
+  spawnCount: 0
+  numObj: 0
+  idObj: 0
+  currentSpawn: 0
+  nomeObj: 
+  nObj: 
+  zPos: 0
+  dist: 0
+  obs1: {fileID: 1824929447659414, guid: d38758a5788d37044932ab64d84f6905, type: 2}
+  obs2: {fileID: 1747809042839474, guid: 19c579e0d4b12d84e8e3126b662c5e18, type: 2}
+  obs3: {fileID: 1499643921187376, guid: f4f5d0ef1fceff742847f022b4e89db8, type: 2}
+  obs4: {fileID: 1596364739766120, guid: f594c7df39cbdc44d801a4e65703697f, type: 2}
+  obs5: {fileID: 1579710892905528, guid: b888cb4fd64797d46941674b7f3b87aa, type: 2}
+  obs6: {fileID: 1841044497550686, guid: 8cecacd6441aeef4092f303e2f9ad8c5, type: 2}
+  obs7: {fileID: 1916193740513328, guid: af87f46173bcdaa4fae48602ef40364a, type: 2}
+  obs8: {fileID: 1300575010612788, guid: 2fa43d4923c597c49a79052cb34899c7, type: 2}
+  obs9: {fileID: 1029860267062672, guid: 32ed5c36f8be9254f9874ea1f980180a, type: 2}
+  obs10: {fileID: 1301779499875108, guid: e8aaa65d50e7a7249a890ea3a4a38f8f, type: 2}
+  obs11: {fileID: 1960052286874064, guid: 55457c5cae3b7644e84aba9487043929, type: 2}
+  obs12: {fileID: 1056722446084992, guid: f1ed46d5aa4388540a6fb2d126cdcd6f, type: 2}
+  obs13: {fileID: 1990226910400724, guid: d5283139c254499489e6681e990bfaa3, type: 2}
+  obs14: {fileID: 1966308143157796, guid: 95cb046036154d346beda6f7a2c97f6e, type: 2}
+  obs15: {fileID: 1394176864086118, guid: 4afb02f8dbeb5204c9aa39cb3ba0ef49, type: 2}
+  obs16: {fileID: 1187134500774864, guid: e9b0285b5a274b047b224d8b90cbff18, type: 2}
+  challenge1: {fileID: 1283316478713574, guid: b91eddd2477d9c4409ca95128c7a4304, type: 2}
+  challenge2: {fileID: 0}
+  objInfo: {fileID: 0}
+  challengeInfo: {fileID: 0}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  player: {fileID: 0}
